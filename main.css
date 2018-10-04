@@ -1,3 +1,269 @@
-h1 {
-    font-size: 36px;
+
+/*
+General Styling
+*/
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+/*
+Header Styling
+*/
+
+
+header {
+    box-shadow: 0px 1px 1px 2px blue inset;
+}
+
+.header-top {
+    padding: 1rem 1rem;
+
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+.brand {
+    float: left;
+    height: 85px;
+    width: 170px;
+
+    box-shadow: 0px 1px 1px 2px green inset;
+}
+
+.nav-social {
+    float: right;
+
+    height: 35px;
+    width: 160px;
+
+    box-shadow: 0px 1px 1px 2px red inset;
+}
+
+.nav-sign-sub {
+    float: right;
+
+    height: 45px;
+    width: 300px;
+
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.search {
+    clear: right;
+    float: right;
+    height: 33px;
+    width: 300px;
+
+    box-shadow: 0px 1px 1px 2px purple inset;
+}
+
+.header-bottom {
+    box-shadow: 0px 1px 1px 2px red inset;
+}
+
+.nav {
+    height: 50px;
+
+    box-shadow: 0px 1px 1px 2px brown inset;
+}
+
+
+/*
+Main Top Styling
+*/
+
+
+.main {
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+.main-top {
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.top-pic {
+    height: 500px;
+
+    box-shadow: 0px 1px 1px 2px blue inset;
+}
+
+.info {
+    height: 100px;
+
+    box-shadow: 0px 1px 1px 2px gray inset;
+}
+
+/*
+News Styling
+*/
+
+.news {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+.news article {
+    height: 300px;
+
+    box-shadow: 0px 1px 1px 2px red inset;
+}
+
+.section-bottom {
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 0px 1px 1px 2px blue inset;
+}
+
+.more-button {
+    height: 100px;
+    width: 300px;
+
+
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+/*
+Features Styling
+*/
+
+.features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.features-top {
+    box-shadow: 0px 1px 1px 2px red inset;
+}
+
+.title {
+    height: 50px;
+
+    box-shadow: 0px 1px 1px 2px green inset;
+}
+
+.features-top-pic {
+    position: relative;
+    height: 500px;
+
+    box-shadow: 0px 1px 1px 2px brown inset;
+}
+
+.features-top-info {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    height: 100px;
+    width: 90%;
+
+    box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+.features article {
+    height: 200px;
+
+    box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+
+/*
+Clubs Styling
+*/
+
+.clubs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.clubs .col-p-9 {
+    height: 500px;
+
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+.clubs article {
+    height: 200px;
+
+    box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+/*
+Miller
+*/
+
+.miller {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.miller .col-p-9 {
+    height: 500px;
+
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+.miller article {
+    height: 200px;
+
+    box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+
+/*
+Footer
+*/
+
+footer {
+    padding-bottom: 50px;
+
+    box-shadow: 0px 1px 1px 2px red inset;
+}
+
+.footer-top {
+    box-shadow: 0px 1px 1px 2px brown inset;
+}
+
+.top-link {
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+ 
+    box-shadow: 0px 1px 1px 2px orange inset;
+}
+
+.nav-footer-top {
+    height: 80px;
+ 
+    box-shadow: 0px 1px 1px 2px black inset;
+}
+
+.nav-footer-bottom {
+    height: 80px;
+ 
+    box-shadow: 0px 1px 1px 2px purple inset;
+}
+
+.footer-bottom {
+    height: 60px;
+     
+    box-shadow: 0px 1px 1px 2px yellow inset;
 }

@@ -89,7 +89,18 @@ BORDER-BOX EVERYTHING
 
 .row {
 	margin-right: -10px;
-	margin-left: -10px
+	margin-left: -10px;
+}
+
+.container:after, .container:before,
+.row:after, .row:before {
+	display: table;
+	content: " ";
+}
+
+.container:after,
+.row:after {
+	clear: both;
 }
 
 .col-p-1, .col-p-2, .col-p-3, .col-p-4, .col-p-5, .col-p-6, .col-p-7, .col-p-8, .col-p-9, .col-p-10, .col-p-11, .col-p-12 {
