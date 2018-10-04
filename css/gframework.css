@@ -58,6 +58,14 @@ table {
 	border-spacing: 0;
 }
 
+/***************
+LINKS NO TEXT DECORATION
+****************/
+
+a {
+	text-decoration: none;
+}
+
 
 /***************
 BORDER-BOX EVERYTHING
