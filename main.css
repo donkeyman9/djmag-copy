@@ -11,9 +11,10 @@ General Styling
     clear: both;
 }
 
-.container {
-    padding-left: 100px;
-    padding-right: 100px;
+article {
+    margin-bottom: 1.55rem;
+
+    box-shadow: 0px 1px 1px 2px red inset;
 }
 
 
@@ -118,11 +119,6 @@ header {
 }
 
 .nav {
-    box-shadow: 0px 1px 1px 2px brown inset;
-}
-
-.nav {
-    #width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -148,6 +144,7 @@ Main Top Styling
 .main {
     max-width: 1035px;
     padding: 1rem;
+    margin-bottom: 2rem;
 
     box-shadow: 0px 1px 1px 2px black inset;
 }
@@ -167,11 +164,35 @@ Main Top Styling
 }
 
 .info {
+    background-color: #efefef;
     font: 4rem;
     text-align: center;
+    text-transform: uppercase;
 
     box-shadow: 0px 1px 1px 2px gray inset;
 }
+
+.cat {
+    padding: 20px 9px 0 6px;
+
+    font-size: 1rem;
+    letter-spacing: .5rem;
+}
+
+.main-title {
+    padding: 15px 30px 30px;
+}
+
+.main-title a {
+    display: block;
+    color: #333;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+}
+
+
+
+
 
 /*
 News Styling
@@ -184,11 +205,43 @@ News Styling
     box-shadow: 0px 1px 1px 2px pink inset;
 }
 
-.news article {
-    height: 300px;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+.news-pic {
+    position: relative;
 }
+
+.news-pic img {
+    width: 100%;
+}
+
+.news-cat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px 9px 0 6px;
+
+    color: #000;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.news-title {
+    margin-top: 10px;
+}
+
+.news-title a {
+
+    color: #333;
+    font-size: 19.4px;
+    line-height: 1.5rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+.empty {
+    width: 100%;
+}
+
 
 .section-bottom {
     display: flex;
@@ -197,13 +250,28 @@ News Styling
     box-shadow: 0px 1px 1px 2px blue inset;
 }
 
-.more-button {
-    height: 100px;
-    width: 300px;
+.more-button a button {
+    padding: .05rem 1.15rem .3rem 1rem;
+    margin: .9rem auto .5rem .625rem;
 
-
-    box-shadow: 0px 1px 1px 2px black inset;
+    border-radius: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: .09rem;
+    text-transform: uppercase;
 }
+
+.more-button a button span {
+    position: relative;
+    top: 3px;
+    
+    padding-right: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
 
 /*
 Features Styling
@@ -217,18 +285,23 @@ Features Styling
 }
 
 .features-top {
+    margin-bottom: 1.3rem;
+
     box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .title {
-    height: 50px;
+    margin-bottom: .75rem;
+
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
 
     box-shadow: 0px 1px 1px 2px green inset;
 }
 
-.features-top-pic {
+.features .top-pic {
     position: relative;
-    height: 500px;
 
     box-shadow: 0px 1px 1px 2px brown inset;
 }
@@ -236,18 +309,60 @@ Features Styling
 .features-top-info {
     position: absolute;
     bottom: 50px;
-    left: 30px;
-    height: 100px;
-    width: 90%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 88%;
+    padding: 23px;
+
+    background-color: #fff;
+    text-align: center;
 
     box-shadow: 0px 1px 1px 2px pink inset;
+}
+
+.features-top-info a {
+    color: #333;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.features .col-p-6 .news-title a,
+.tech .col-p-6 .news-title a {
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .features article {
-    height: 200px;
-
     box-shadow: 0px 1px 1px 2px pink inset;
 }
+
+.courses {
+    margin-top: 15px;
+}
+
+.courses a {
+    background-color: #f6f6f6;
+    color: #2a60ad;
+    font-size: 15px;
+    letter-spacing: 0.16px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+/*
+Tech Styling
+*/
+
+.courses-cat {
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    width: 65%;
+    padding: 4px 4px 4px 0;
+}
+
 
 
 /*
@@ -255,21 +370,16 @@ Clubs Styling
 */
 
 .clubs {
-    margin-top: 50px;
-    margin-bottom: 50px;
-
     box-shadow: 0px 1px 1px 2px yellow inset;
 }
 
-.clubs .col-p-9 {
-    height: 500px;
-
-    box-shadow: 0px 1px 1px 2px black inset;
+.clubs .col-p-9 a,
+.miller .col-p-9 a {
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 .clubs article {
-    height: 200px;
-
     box-shadow: 0px 1px 1px 2px pink inset;
 }
 
@@ -278,21 +388,10 @@ Miller
 */
 
 .miller {
-    margin-top: 50px;
-    margin-bottom: 50px;
-
     box-shadow: 0px 1px 1px 2px yellow inset;
 }
 
-.miller .col-p-9 {
-    height: 500px;
-
-    box-shadow: 0px 1px 1px 2px black inset;
-}
-
 .miller article {
-    height: 200px;
-
     box-shadow: 0px 1px 1px 2px pink inset;
 }
 
@@ -302,37 +401,98 @@ Footer
 */
 
 footer {
-    padding-bottom: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 22px;
+
+    background-color: #303030;
 
     box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .footer-top {
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+
     box-shadow: 0px 1px 1px 2px brown inset;
 }
 
-.top-link {
+.footer-top,
+.nav-footer-wrap,
+.footer-bottom {
+    max-width: 1010px;
+    margin: auto;
+}
+
+.footer-brand {
+    float: left;
+
+    box-shadow: 0px 1px 1px 2px green inset;
+}
+
+.footer-brand img {
+    height: 40px;
+    width: 80px;
+}
+
+.top-link a {
     display: inline-block;
-    height: 60px;
-    width: 200px;
+    padding-left: 15px;
+
+    color: #fff;
+    font-size: .8rem;
+    text-transform: uppercase;
  
     box-shadow: 0px 1px 1px 2px orange inset;
 }
 
-.nav-footer-top {
-    height: 80px;
- 
-    box-shadow: 0px 1px 1px 2px black inset;
+.top-link a span {
+    position: relative;
+    top: 17px;
+    padding-right: 2px;
+    
+    font-size: 2rem;
+    font-weight: 700;
+
 }
 
+.nav-footer-wrap {
+    box-shadow: 0px 1px 1px 2px yellow inset;
+}
+
+.nav-footer-top , 
 .nav-footer-bottom {
-    height: 80px;
- 
+    margin-top: 15px;
+}
+
+.nav-footer-top li,
+.nav-footer-bottom li {
+    display: inline-block;
+}
+.nav-footer-top li a,
+.nav-footer-bottom li a {
+    color: #dcdcdc;
+    font-size: .85rem;
+    text-transform: uppercase;
+    line-height: 2.25rem
+}
+
+.nav-footer-top ul,
+.nav-footer-bottom ul {
+    display: flex;
+    justify-content: space-between;
     box-shadow: 0px 1px 1px 2px purple inset;
 }
 
-.footer-bottom {
-    height: 60px;
-     
-    box-shadow: 0px 1px 1px 2px yellow inset;
+.nav-footer-bottom {
+    width: 85%;
+    margin-bottom: 25px;
 }
+
+.footer-bottom {
+    color: #dcdcdc;
+    font-size: .75rem;
+    line-height: 1.25rem
+}
+
+
