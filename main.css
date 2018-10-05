@@ -419,6 +419,11 @@ Features Styling
 Tech Styling
 */
 
+.tech {
+    margin-bottom: 50px;
+}
+
+
 .courses-cat {
     position: absolute;
     bottom: 0px;
@@ -433,6 +438,11 @@ Tech Styling
 Clubs Styling
 */
 
+.clubs {
+    margin-bottom: 50px;
+}
+
+
 .clubs .col-p-9 a,
 .miller .col-p-9 a {
     font-size: 1.6rem;
@@ -443,6 +453,10 @@ Clubs Styling
 /*
 Miller
 */
+
+.miller {
+    margin-bottom: 50px;
+}
 
 
 /*
