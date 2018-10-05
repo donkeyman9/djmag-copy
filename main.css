@@ -23,7 +23,8 @@ header a:hover,
     text-decoration: underline;
 }
 
-asscock:hover {
+#asscock:hover,
+.menu a:hover {
     text-decoration: none;
 }
 
