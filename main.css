@@ -14,7 +14,17 @@ General Styling
 article {
     margin-bottom: 1.55rem;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+    #box-shadow: 0px 1px 1px 2px red inset;
+}
+
+header a:hover,
+.top-link a span:last-child:hover,
+.nav-footer-wrap a:hover {
+    text-decoration: underline;
+}
+
+asscock:hover {
+    text-decoration: none;
 }
 
 
@@ -27,7 +37,7 @@ Header Styling
 header {
     background-color: #303030;
 
-    box-shadow: 0px 1px 1px 2px blue inset;
+    #box-shadow: 0px 1px 1px 2px blue inset;
 }
 
 .header-top {
@@ -35,13 +45,13 @@ header {
     margin: auto;
     padding: 1rem 1rem;
 
-    box-shadow: 0px 1px 1px 2px black inset;
+    #box-shadow: 0px 1px 1px 2px black inset;
 }
 
 .brand {
     float: left;
 
-    box-shadow: 0px 1px 1px 2px green inset;
+    #box-shadow: 0px 1px 1px 2px green inset;
 }
 
 .brand img {
@@ -53,7 +63,7 @@ header {
 .nav-social {
     float: right;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+    #box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .nav-social a img {
@@ -69,7 +79,7 @@ header {
 .nav-sign-sub {
     float: right;
 
-    box-shadow: 0px 1px 1px 2px yellow inset;
+    #box-shadow: 0px 1px 1px 2px yellow inset;
 }
 
 .nav-sign-sub a {
@@ -96,7 +106,7 @@ header {
     float: right;
     margin-top: 10px;
 
-    box-shadow: 0px 1px 1px 2px purple inset;
+    #box-shadow: 0px 1px 1px 2px purple inset;
 }
 
 .search input {
@@ -118,7 +128,7 @@ header {
     padding-left: 1rem;
     padding-right: 1rem;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+    #box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .nav {
@@ -203,17 +213,13 @@ Main Top Styling
     padding: 1rem;
     margin-bottom: 2rem;
 
-    box-shadow: 0px 1px 1px 2px black inset;
+    #box-shadow: 0px 1px 1px 2px black inset;
 }
 
 .main-top {
     margin-top: 1.1rem;
 
-    box-shadow: 0px 1px 1px 2px yellow inset;
-}
-
-.top-pic {
-    box-shadow: 0px 1px 1px 2px blue inset;
+    #box-shadow: 0px 1px 1px 2px yellow inset;
 }
 
 .top-pic img {
@@ -226,7 +232,7 @@ Main Top Styling
     text-align: center;
     text-transform: uppercase;
 
-    box-shadow: 0px 1px 1px 2px gray inset;
+    #box-shadow: 0px 1px 1px 2px gray inset;
 }
 
 .cat {
@@ -259,7 +265,7 @@ News Styling
     margin-top: 50px;
     margin-bottom: 50px;
 
-    box-shadow: 0px 1px 1px 2px pink inset;
+    #box-shadow: 0px 1px 1px 2px pink inset;
 }
 
 
@@ -304,7 +310,7 @@ News Styling
     display: flex;
     justify-content: center;
 
-    box-shadow: 0px 1px 1px 2px blue inset;
+    #box-shadow: 0px 1px 1px 2px blue inset;
 }
 
 .more-button a button {
@@ -338,13 +344,13 @@ Features Styling
     margin-top: 50px;
     margin-bottom: 50px;
 
-    box-shadow: 0px 1px 1px 2px yellow inset;
+    #box-shadow: 0px 1px 1px 2px yellow inset;
 }
 
 .features-top {
     margin-bottom: 1.3rem;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+    #box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .title {
@@ -354,13 +360,13 @@ Features Styling
     letter-spacing: .5rem;
     text-transform: uppercase;
 
-    box-shadow: 0px 1px 1px 2px green inset;
+    #box-shadow: 0px 1px 1px 2px green inset;
 }
 
 .features .top-pic {
     position: relative;
 
-    box-shadow: 0px 1px 1px 2px brown inset;
+    #box-shadow: 0px 1px 1px 2px brown inset;
 }
 
 .features-top-info {
@@ -374,7 +380,7 @@ Features Styling
     background-color: #fff;
     text-align: center;
 
-    box-shadow: 0px 1px 1px 2px pink inset;
+    #box-shadow: 0px 1px 1px 2px pink inset;
 }
 
 .features-top-info a {
@@ -390,9 +396,6 @@ Features Styling
     line-height: 2rem;
 }
 
-.features article {
-    box-shadow: 0px 1px 1px 2px pink inset;
-}
 
 .courses {
     margin-top: 15px;
@@ -426,31 +429,16 @@ Tech Styling
 Clubs Styling
 */
 
-.clubs {
-    box-shadow: 0px 1px 1px 2px yellow inset;
-}
-
 .clubs .col-p-9 a,
 .miller .col-p-9 a {
     font-size: 1.6rem;
     line-height: 2rem;
 }
 
-.clubs article {
-    box-shadow: 0px 1px 1px 2px pink inset;
-}
 
 /*
 Miller
 */
-
-.miller {
-    box-shadow: 0px 1px 1px 2px yellow inset;
-}
-
-.miller article {
-    box-shadow: 0px 1px 1px 2px pink inset;
-}
 
 
 /*
@@ -464,14 +452,14 @@ footer {
 
     background-color: #303030;
 
-    box-shadow: 0px 1px 1px 2px red inset;
+    #box-shadow: 0px 1px 1px 2px red inset;
 }
 
 .footer-top {
     padding-top: .625rem;
     padding-bottom: .625rem;
 
-    box-shadow: 0px 1px 1px 2px brown inset;
+    #box-shadow: 0px 1px 1px 2px brown inset;
 }
 
 .footer-top,
@@ -484,7 +472,7 @@ footer {
 .footer-brand {
     float: left;
 
-    box-shadow: 0px 1px 1px 2px green inset;
+    #box-shadow: 0px 1px 1px 2px green inset;
 }
 
 .footer-brand img {
@@ -500,10 +488,10 @@ footer {
     font-size: .8rem;
     text-transform: uppercase;
  
-    box-shadow: 0px 1px 1px 2px orange inset;
+    #box-shadow: 0px 1px 1px 2px orange inset;
 }
 
-.top-link a span {
+.top-link a span:first-child {
     position: relative;
     top: 17px;
     padding-right: 2px;
@@ -513,9 +501,6 @@ footer {
 
 }
 
-.nav-footer-wrap {
-    box-shadow: 0px 1px 1px 2px yellow inset;
-}
 
 .nav-footer-top , 
 .nav-footer-bottom {
@@ -538,7 +523,7 @@ footer {
 .nav-footer-bottom ul {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 1px 1px 2px purple inset;
+    #box-shadow: 0px 1px 1px 2px purple inset;
 }
 
 .nav-footer-bottom {
