@@ -40,10 +40,13 @@ header {
 
 .brand {
     float: left;
-    height: 85px;
-    width: 170px;
 
     box-shadow: 0px 1px 1px 2px green inset;
+}
+
+.brand img {
+    height: 85px;
+    width: 170px;
 }
 
 
@@ -133,6 +136,60 @@ header {
     text-transform: uppercase;
     line-height: 2.25rem;
 }
+
+.menu {
+    display: none;
+}
+
+.menu a {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 160px;
+    padding: 6px;
+
+    color: #fff;
+    font-size: .85rem;
+    text-transform: uppercase;
+}
+
+.menu a span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 11px;
+    top: 49%;
+
+    background-color: #fff;
+}
+
+.menu a span:first-child {
+    transform: translateY(-3px);
+}
+
+.menu a span:last-of-type {
+    transform: translateY(3px);
+}
+
+.menu a div {
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.all-sections {
+    float: left;
+}
+
+.user {
+    float: right;
+}
+
+.header-bottom .user a {
+    width: auto;
+}
+
+
+
 
 
 
@@ -495,4 +552,102 @@ footer {
     line-height: 1.25rem
 }
 
+
+/*
+Media Queries less than 800px
+*/
+
+@media (max-width: 800px) {
+
+    .nav-sign-sub {
+        display: none;
+    } 
+
+    .header-bottom ul {
+        display: none;
+    }
+
+    .nav-footer-top {
+        padding-bottom: 40px;
+    }
+
+    .nav-footer-top ul {
+        display: none;
+    }
+
+    .nav-footer-bottom {
+        clear: both;
+        width: auto;
+    }
+
+    .nav-footer-bottom ul {
+        display: block;
+    }
+
+    .nav-footer-bottom ul li {
+        margin-right: 25px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .search {
+        clear: none;
+        position: relative;
+        top: -5px;
+        left: -18px;
+    }
+
+}
+
+
+/*
+Media Queries less than 739px
+*/
+
+@media (max-width: 739px) {
+
+    .brand img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .col-p-4,
+    .col-p-6,
+    .col-p-3,
+    .col-p-9 {
+        width: 100%;
+    }
+
+    article {
+        margin-bottom: 3rem;
+    }
+
+    .features-top {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+/*
+Media Queries less than 640px
+*/
+
+
+@media (max-width: 640px) {
+    .nav-social {
+        display: none;
+    }
+
+    .search {
+        margin-left: 5%;
+        width: 70%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+}
 
